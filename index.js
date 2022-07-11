@@ -36,15 +36,15 @@ $(document).keypress(function(){
 
 
 //-----------
-$(document).on("click",function(){
-        if(startedFirst===false){
-            $("h1").html("Score: "+ levelCount);
-            showEverything();
-            nextImg();
-            started =true;
-            startedFirst =true;
-        }
-});
+// $(document).on("click",function(){
+//         if(startedFirst===false){
+//             $("h1").html("Score: "+ levelCount);
+//             showEverything();
+//             nextImg();
+//             started =true;
+//             startedFirst =true;
+//         }
+// });
 
 
 function nextImg(){
