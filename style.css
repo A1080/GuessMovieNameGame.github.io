@@ -1,0 +1,122 @@
+#title-heading{
+    text-align: center;
+    font-family: 'Patua One', cursive;
+    font-size: 4.5rem;
+    margin-top: 1.5rem;
+    color: #00FFFF;
+    text-shadow: 2px 2px 8px #FF0000;
+}
+
+.topnav-right {
+  float: right;
+}
+
+#playBtn{
+    margin-left: 45%;
+    font-family: 'Crete Round', serif;
+}
+.img1{
+    height: 400px;
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding: 2% 2%; */
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.vid{
+  height: 400px;
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* padding: 2% 2%; */
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+body{
+    background-image: url("imagesother/backgroundimg.png");
+}
+
+
+input[type=text] {
+    width: 40%;
+    padding: 12px 20px;
+    /* margin: 8px 75px; */
+    margin-left: 30%;
+    /* margin-top: 5%; */
+    box-sizing: border-box;
+    border: 3px solid red;
+    outline: none;
+  }
+  
+  input[type=text]:focus {
+    background-color: lightblue;
+  }
+
+  .label-name{
+    padding: 5px 10px;
+    font-size: 1.2rem;
+    margin-left: 30%;
+    color: blanchedalmond;
+    font-family: 'Patua One', cursive;
+  }
+
+  .btn{
+    position: relative;
+    margin-left: 30.3%;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding: 10px 15px;
+    font-family: 'Crete Round', serif;
+    font-size: large;
+  }
+
+  .btn:hover{
+    color: greenyellow;
+    background-color:dimgrey;
+  }
+
+  #footer{
+    background-color: #212529;
+    /* background-color: #101010; */
+    text-align: center;
+    padding: 1% 3%;
+    line-height: 2;
+    font-size: 1rem;
+    margin-top: 5%;
+}
+.footerDesc{
+    color: #fff;
+}
+.fa-brands,.mail{
+    color: white;
+    padding: 1% 1%;
+}
+
+.infoicon{
+  color: #00FFFF;
+}
+  /* responsive */
+  @media(max-width:1460px){
+    #nextBtn{
+      margin-left: auto;
+    }
+    #submitBtn{
+      margin-right: 20px;
+    }
+    }
+
+  @media(max-width:520px){
+    #title-heading{
+      font-size: 3rem;
+  }
+  #playBtn{
+    margin-left: 38%;
+  }
+  }
+
+
+
+ 

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script
+      src="https://kit.fontawesome.com/319140f4de.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Patua+One&display=swap" rel="stylesheet">
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <title>GuessGame</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+</head>
+<body>
+
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="favicon_io/favicon-32x32.png" alt="" width="30" height="35" class="ms-3 d-inline-block align-text-top">
+            GuessGame
+          </a>
+          <div class="topnav-right">
+            <i class="infoicon fa-solid fa-circle-info"></i>
+          </div>
+        </div>        
+      </nav>
+
+
+    <h1 id="title-heading">Press Any Key To Start</h1>
+    <button type="button" id="playBtn" class="btn btn-warning">Play Again</button>
+
+    <div class="memeImg">
+      <video autoplay="autoplay" controls muted class="vid">
+        <source src="sound/fullscore.mp4" type="video/mp4">
+      </video>
+        <img class="img1" src="images/Enjoy the Game.png">
+      </div>
+
+     <!-- <div class="input-group"> -->
+      <label class="label-name" for="fname">Enter the movie name</label>
+      <form id="myForm">
+      <input type="text" id="fname" name="fname" placeholder="Enter Your Answer Here">
+    </form>
+     <!-- </div> -->
+      <button type="button" id="submitBtn" class="btn btn-dark">Submit</button>
+      <button type="button" id="nextBtn" class="btn btn-dark">Next</button>
+
+<!-- *******************footer************** -->
+<footer id="footer">
+  <a href="https://www.facebook.com/profile.php?id=100008724402903" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+  <a href="https://www.instagram.com/abhisheksophiya?r=nametag" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+  <a href="mailto:sophiyaabhi101@gmail.com" target="_blank"><i class="mail fa-solid fa-envelope"></i></a>
+  <p class="footerDesc">Made with ❤ Abhishek Sophiya</p>
+  <p class="footerDesc">© 2022 Copyright</p>
+</footer>
+<!-- End of .container -->
+
+
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="index.js"></script>
+    </body>
+</html>
